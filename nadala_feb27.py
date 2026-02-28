@@ -1,3 +1,9 @@
+"""
+Created on Feb 28 14:34:00 2026
+
+@author: johnphilipnadala 
+"""
+
 import scipy.stats as sts  
 import numpy as np
 import matplotlib.pyplot as plt
@@ -35,4 +41,5 @@ unnormalized_posterior = likelihood_out * uniform_dist
 plt.plot(mu, unnormalized_posterior)
 plt.xlabel("$\\mu$ in meters")
 plt.ylabel("Unnormalized Posterior")
+
 plt.show()
